@@ -5,6 +5,7 @@
   margin: 0;
   font-family: Helvetica;
 }
+
 h1 {
   margin-bottom: 15px;
   text-align: center;
@@ -20,6 +21,7 @@ div.text {
 
 p {
   color: white;
+  padding: 10px;
 }
 /* Simple Responsive Framework. */
 .header {
@@ -30,6 +32,7 @@ p {
   margin: 0;
   width: 75px;
   height: 25px;
+  padding: 10px;
 }
 
 .header1 {
@@ -47,6 +50,8 @@ p {
 .row {
   width: 100%;
 }
+
+
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
@@ -135,6 +140,13 @@ p {
   .col-md-12 {
     width: 100%;
   }
- 
 }
+
+@media(max-width: 767px) {
+  .col-sm-12 { 
+     float: left;   
+     width: 100%; 
+  }
+}
+
 </style>
