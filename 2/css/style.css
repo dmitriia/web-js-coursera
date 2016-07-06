@@ -5,6 +5,7 @@
   margin: 0;
   font-family: Helvetica;
 }
+
 h1 {
   margin-bottom: 15px;
   text-align: center;
@@ -13,22 +14,24 @@ h1 {
 
 div.text {
   float: left;
-  margin: 5px;
-  border: 1px solid black;
-  background-color: green; /* #A52A2A */
+  height: auto;
 }
 
 p {
   color: white;
   padding: 10px;
+  margin: 5px;
+  border: 1px solid black;
+  background-color: green; /* #A52A2A */
 }
+
 /* Simple Responsive Framework. */
 .header {
   border: 1px solid black;
   font-size: 125%;
   float: right;
   text-align: center;
-  margin: 0;
+  margin: -5 -5 0 0;
   width: 75px;
   height: 25px;
   padding: 10px;
@@ -48,6 +51,7 @@ p {
 
 .row {
   width: 100%;
+  padding: 5px;
 }
 
 
@@ -68,8 +72,7 @@ p {
     width: 25%;
   }
   .col-lg-4 {
-    width: 32%;
-    height: 15%;
+    width: 33.33%;
   }
   .col-lg-5 {
     width: 41.66%;
@@ -118,8 +121,7 @@ p {
     width: 41.66%;
   }
   .col-md-6 {
-    width: 48%;
-    height: 30%;
+    width: 50%;
   }
   .col-md-7 {
     width: 58.33%;
